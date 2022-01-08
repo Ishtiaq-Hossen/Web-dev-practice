@@ -1,0 +1,172 @@
+/*--------------
+ background part
+----------------*/
+
+
+body{
+    background-color:#a7b2cc;
+    margin:5px;
+    padding:0;
+}
+
+/*--------------
+main content part
+----------------*/
+
+
+.contain{
+    font-family: 'Roboto', sans-serif;
+    margin:5px auto;
+    background-color:#9caee5;
+    padding:10px;
+    max-width:1100px;
+    text-align: justify;
+    display:flex;
+    flex:wrap;
+    flex-direction: column;
+}
+.contain:hover{
+    box-shadow:0px 5px 15px 5px black;
+    transition:0.5s;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    color:#41417a;
+}
+
+/*--------------
+ --image part--
+----------------*/
+
+
+.profile-image{
+    max-width:120px;
+    max-height:120px;
+    border:5px solid white;
+    border-radius:50%;
+    margin:8px;
+    float:left;
+}
+
+/*--------------
+ header part----
+----------------*/
+.emoji{
+    color:red;
+    font-size:1.5rem;
+}
+
+.head1{
+    
+    
+    
+}
+.head2{
+    float:right;
+    color:#41417a;
+    line-height:6px;
+    padding:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.head2 a{
+    color:#41417a;
+    text-decoration:none;
+    
+}
+.head2 a:hover{
+    
+    color:tomato;
+    text-decoration:underline;
+}
+.clear-div{
+    clear:both;
+}
+hr{
+    border:5px solid black;
+    border-bottom:none;
+    margin:0 auto;
+    
+}
+
+/*--------------
+additional part
+----------------*/
+
+.left-div{
+    width:30%;
+    float:left;
+    
+}
+.right-div{
+    text-align:left;
+    width: 70%;
+    color: black;
+    float: left;
+    
+}
+
+
+/*--------------
+ divider part
+----------------*/
+.hr12{
+    border:2px solid black;
+    margin:20px auto;
+    border-bottom:none;
+    max-width:100%;
+    
+}
+
+
+/*--------------
+ line height part
+----------------*/
+
+.right-line{
+   
+    line-height:1.2;
+}
+
+/*--------------
+additional part
+----------------*/
+
+
+.left-div-1{
+    padding-right:15px;
+    float:left;
+    max-width:45%;
+}
+.right-div-1{
+    padding-left:10px;
+    float:left;
+    max-width:45%;
+}
+
+/*--------------
+--footer-part---
+----------------*/
+
+.for-foot{
+    background-color: black;
+    max-height:100px;
+    text-align:center;
+    padding:20px;
+    color:white;
+    max-width: 100%;
+    
+    
+}
+.for-foot a{
+    color:white;
+    text-decoration:none;
+
+}
+.for-foot a:hover{
+    color:tomato;
+    text-decoration:none;
+
+}

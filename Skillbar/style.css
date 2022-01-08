@@ -1,0 +1,125 @@
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(52, 152, 157);
+    margin:0 auto;
+    width:600px;
+    height:620px;
+    padding:20px;
+    box-shadow:0 8px 16px 0 black;
+    border-radius:40px;
+}
+.container:hover{
+    border-radius:0px;
+    margin-top:40px;
+    box-shadow:0 16px 25px 0 black;
+    transition:all 0.5s ease-in-out;
+}
+
+#k{
+    font-size:30px;
+    margin:0 auto;
+    width:40%;
+    text-align: center;
+    padding:20px;
+    border:5px solid blue;
+    border-radius:10px;
+    background-color:rgb(69, 195, 208);
+}
+.skill{
+    font-size:22px;
+    font-weight:bolder;
+    padding:0;
+    margin:0;
+    position:relative;
+    float:left;
+    text-transform: uppercase;
+}
+.skill2{
+    
+    position:relative;
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    border:4px solid blue;
+    height:10px;
+    border-radius:500px;
+   
+}
+.skill2::before{
+    
+    content:'';
+    position:absolute;
+    left:0%;
+    width:100%;
+    
+   
+    background-color:rgb(138, 121, 218);
+    height:10px;
+    
+    
+}
+.skill2::after{
+    
+    content:'';
+    position:absolute;
+    left:-0.5%;
+    width:0%;
+    border-radius:800px;
+    background-color:rgb(35, 35, 122);
+    height:10px;
+    animation-duration:2.5s;
+    animation-delay:1s;
+    animation-direction: forwards;
+    animation-iteration-count: 2;
+    animation-fill-mode:forwards;
+}
+.html::after{
+    animation-name:html;
+}
+@keyframes html{
+    to{
+        width:60%;
+        c
+    }
+}
+.css::after{
+    animation-name:css;
+}
+@keyframes css{
+    to{
+        width:70%;
+        background-color:rgb(37, 29, 145);
+    }
+}
+.c::after{
+    animation-name:c;
+}
+@keyframes c{
+    to{
+        width:65%;
+        background-color:rgb(37, 29, 145);
+    }
+}
+.cpp::after{
+    animation-name:cpp;
+}
+@keyframes cpp{
+    to{
+        width:80%;
+        background-color:rgb(37, 29, 145);
+    }
+}
+
+.percent{
+    padding:0;
+    margin:0;
+    position:relative;
+    float:right;
+    font-size:17px;
+    font-weight:bolder;
+}
+.cl{
+    clear:both;
+}

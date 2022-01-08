@@ -1,0 +1,54 @@
+html{
+    background-image:url(images/net);
+    font-family:Arial, Helvetica, sans-serif,"Helvetica neue";
+}
+div{
+
+    background-color: #2b0606;
+    margin:0 auto;
+    width: 320px;
+    height:500px;
+    padding:50px 50px;
+    margin-top:60px;
+    
+}
+div p{
+    color:white;
+    font-size:32px;
+}
+.form1{
+    width:100%;
+    height:50px;
+    font-size:20px;
+    background-color:#333333;
+    color:#8c8c8c;
+    border-radius:6px;
+    border:0px;
+    padding:0 0 0 12px;
+    
+}
+.button1{
+    width:102%;
+    height:50px;
+    background-color: #e50914;
+    color:white;
+    font-size: 20px;
+    border:0px;
+    border-radius:6px;
+}
+.rem{
+    font-size:13px;
+    color:#b3b3b3;
+    float:left;
+}
+.rem2{
+    font-size:13px;    
+    float:right;      
+}
+.rem2 a{
+    color:#b3b3b3;
+    text-decoration: none;
+}
+.rem2 a:hover{
+    text-decoration: underline;
+}
